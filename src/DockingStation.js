@@ -1,9 +1,9 @@
 'use strict'
 
 class DockingStation {
-    constructor() {
-    }
-    releaseBike() {
-        return 'bike';
-    }
+  constructor() {
+  }
+  releaseBike() {
+    return 'bike';
+  }
 }

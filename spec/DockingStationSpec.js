@@ -1,10 +1,10 @@
 'use strict'
 
 describe('DockingStations', function() {
-    var station;
+  var station;
 
-    it('should return a bike', function() {
-        station = new DockingStation();
-        expect(station.releaseBike()).toEqual('bike');
-    });
+  it('should return a bike', function() {
+    station = new DockingStation();
+    expect(station.releaseBike()).toBeInstanceOf(Bike);
+  });
 });
