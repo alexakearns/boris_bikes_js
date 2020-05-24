@@ -3,6 +3,13 @@ Boris Bikes - Javascript ES6
 
 A project to emulate TfL's 'Boris Bikes'. Written in Javascript ES6 using TDD with Jasmine testing framework.  
 
+## Domain Model
+
+| Objects           |  Messages                            |   
+|-------------------|--------------------------------------|
+| Docking Station   | release_bike, return_bike, capacity  |
+| Bike              | working?
+
 ## User Stories
 
 ```
