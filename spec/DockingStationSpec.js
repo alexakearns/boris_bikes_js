@@ -3,11 +3,8 @@
 describe('DockingStations', function() {
     var station;
 
-    beforeEach(function() {
-        station = new DockingStation();
-    });
-
     it('should return a bike', function() {
+        station = new DockingStation();
         expect(station.releaseBike()).toEqual('bike');
     });
 });
