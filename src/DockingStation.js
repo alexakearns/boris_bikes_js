@@ -4,6 +4,6 @@ class DockingStation {
   constructor() {
   }
   releaseBike() {
-    return 'bike';
+    return new Bike();
   }
 }
